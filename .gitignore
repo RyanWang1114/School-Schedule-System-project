@@ -1,0 +1,13 @@
+/build/
+/runtime/
+/.local-archive/
+*.class
+*.iml
+.idea/
+.vscode/
+# Local account files and generated weekly schedules
+/UserEmail.txt
+/password.txt
+/AdminEmail.txt
+/Adminpassword.txt
+/* week/
