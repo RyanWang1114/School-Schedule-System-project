@@ -228,7 +228,7 @@ public class AdminMainFrame extends JFrame implements ActionListener{
             File[] files = folder.listFiles();
             if (files == null || files.length == 0) {
                 JOptionPane.showMessageDialog(this,
-                        "Save student availability for the current week before generating a schedule.");
+                        "Save tutor availability for the current week before generating a schedule.");
                 return null;
             }
             Map<String, String[][]> emailToDataMap = new HashMap<>();

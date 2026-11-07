@@ -1,10 +1,10 @@
 # Dining Hall Rota Scheduler
 
-A Java Swing desktop project that turns weekly availability into a dining-hall duty rota. Students record availability for breakfast, lunch, and supper slots. An administrator generates a schedule, reviews assignments, and exports the current week's rota as an HTML table.
+A Java Swing desktop project that turns tutors' weekly availability into a dining-hall supervision rota. Tutors record availability for breakfast, lunch, and supper slots. An administrator generates a schedule, reviews assignments, and exports the current week's rota as an HTML table.
 
 ## Features
 
-- Separate student and administrator screens.
+- Separate tutor and administrator screens.
 - Weekly availability entry and saved schedule views.
 - An assignment algorithm that considers availability and assignment counts.
 - Administrator editing of the generated rota.
@@ -51,10 +51,10 @@ The included accounts use fictitious addresses reserved for examples.
 
 | Role | Email | Demo password |
 | --- | --- | --- |
-| Student | `student@example.invalid` | `demo-student-only` |
+| Tutor | `student@example.invalid` | `demo-student-only` |
 | Administrator | `admin@example.invalid` | `demo-admin-only` |
 
-Sign in as the student, choose a week, and save availability. Then sign in as the administrator to generate and view the current week's rota. The administrator can export that week's completed schedule to HTML through **Output schedule**.
+Sign in as the tutor using the sample account above, choose a week, and save availability. Then sign in as the administrator to generate and view the current week's rota. The administrator can export that week's completed schedule to HTML through **Output schedule**.
 
 The original school prototype stores account details in local plaintext files. Use these sample accounts for demonstrations. Scheduling uses a heuristic, so administrators should review assignments and unfilled slots.
 
